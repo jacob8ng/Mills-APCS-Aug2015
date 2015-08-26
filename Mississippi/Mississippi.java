@@ -45,3 +45,25 @@ public class Mississippi{
         twoS();
         fiveS();
     }
+    public static void fiveS(){
+        System.out.println(" SSSSS");
+    }
+    public static void twoS(){
+        System.out.println("S     S");
+    }
+    public static void p(){
+        sixP();
+        twoP();
+        twoP();
+        sixP();
+        System.out.println("P");
+        System.out.println("P");
+        System.out.println("P");
+    }
+    public static void sixP(){
+        System.out.println("PPPPPP");
+    }
+    public static void twoP(){
+        System.out.println("P     P");
+    }
+}
