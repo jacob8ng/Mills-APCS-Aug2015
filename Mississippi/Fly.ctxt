@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=
+comment1.target=void\ fly()
+comment2.params=
+comment2.target=void\ spider()
+comment3.params=
+comment3.target=void\ bird()
+comment4.params=
+comment4.target=void\ cat()
+comment5.params=
+comment5.target=void\ horse()
+comment6.params=
+comment6.target=void\ catCatchBird()
+comment7.params=
+comment7.target=void\ birdCatchSpider()
+comment8.params=
+comment8.target=void\ wriggled()
+comment9.params=
+comment9.target=void\ die()
+numComments=10
