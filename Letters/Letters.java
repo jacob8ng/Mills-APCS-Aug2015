@@ -1,5 +1,5 @@
 /*
- * Jacob Ng
+ * Jacob Ng and Nathan Chau
  * APCS
  * Letters
  * Aug. 27, 2015
