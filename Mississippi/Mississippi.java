@@ -1,8 +1,9 @@
 /*
  * Jacob Ng
  * APCS
- * Aug. 25, 2015
- * Mississippi
+ * Aug. 29, 2015
+ * Mississippi (revised)
+ * spell Mississippi using static methods
  */
 public class Mississippi{
     public static void main(String[] args){
@@ -32,15 +33,18 @@ public class Mississippi{
     }
     public static void i(){
         fiveI();
-        System.out.println("   I");
-        System.out.println("   I");
-        System.out.println("   I");
-        System.out.println("   I");
-        System.out.println("   I");
+        middleI();
+        middleI();
+        middleI();
+        middleI();
+        middleI();
         fiveI();
     }
     public static void fiveI(){
         System.out.println(" IIIII");
+    }
+    public static void middleI(){
+        System.out.println("   I");
     }
     public static void s(){
         fiveS();
@@ -62,14 +66,17 @@ public class Mississippi{
         twoP();
         twoP();
         sixP();
-        System.out.println("P");
-        System.out.println("P");
-        System.out.println("P");
+        singleP();
+        singleP();
+        singleP();
     }
     public static void sixP(){
         System.out.println("PPPPPP");
     }
     public static void twoP(){
         System.out.println("P     P");
+    }
+    public static void singleP(){
+        System.out.println("P");
     }
 }
