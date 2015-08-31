@@ -1,8 +1,8 @@
 /*
  * Jacob Ng
  * APCS
- * The Twelve Days of Christmas
- * Aug. 27, 2015
+ * The Twelve Days of Christmas (revised)
+ * Aug. 31, 2015
  */
 public class Christmas{
     public static void main(String[] args){

@@ -1,8 +1,8 @@
 /*
  * Jacob Ng
  * APCS
- * Aug. 25, 2015
- * Fly
+ * Aug. 31, 2015
+ * Fly (revised)
  */
 public class Fly{
     public static void main(String[] args){
@@ -17,23 +17,27 @@ public class Fly{
         horse();
     }
     public static void fly(){
-        System.out.println("There was an old woman who swallowed a fly,");
+        thereWas();
+        System.out.println("fly,");
         die();
     }
     public static void spider(){
-        System.out.println("There was an old woman who swallowed a spider,");
+        thereWas();
+        System.out.println("spider,");
         wriggled();
         die();
     }
     public static void bird(){
-        System.out.println("There was an old woman who swallowed a bird,");
+        thereWas();
+        System.out.println("bird,");
         System.out.println("How absurd! to swallow a bird,");
         birdCatchSpider();
         wriggled();
         die();
     }
     public static void cat(){
-        System.out.println("There was an old woman who swallowed a cat,");
+        thereWas();
+        System.out.println("cat,");
         System.out.println("Imagine that! to swallow a cat,");
         catCatchBird();
         birdCatchSpider();
@@ -41,8 +45,12 @@ public class Fly{
         die();
     }
     public static void horse(){
-        System.out.println("There was an old woman who swallowed a horse,");
+        thereWas();
+        System.out.println("horse,");
         System.out.println("She's dead - of course!");
+    }
+    public static void thereWas(){
+        System.out.print("There was an old woman who swallowed a ");
     }
     public static void catCatchBird(){
         System.out.println("She swallowed the cat to catch the bird,");
